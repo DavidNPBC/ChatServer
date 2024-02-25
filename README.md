@@ -24,4 +24,7 @@ I added some features, namely:
 -A command to send a risky text to someone randomly in the chat, without the Client knowing who it is. However, the receiving person knows who sent it ("/risky + message")
 -3 commands to sent ASCII art of pikachu, kakarot or a random pokemon (there are 6 different ones) to the whole chat.
 
+The Server uses the Client nickname as a key for a HashMap (so that the Server keeps track of every Client). If the Client chooses an existing nickname, he gets a new random name assigned.
+
 In addition, I added some defensive programming so that the commands would work as expected.
+
