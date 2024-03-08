@@ -1,4 +1,4 @@
-Concurrent Chat Server Project
+# Concurrent Chat Server Project
 
 This is a project I did whilst I was at Code for All's Full-Stack bootcamp.
 Our challenge was to implement a chat that would be able to serve multiple Clients at the same time.
